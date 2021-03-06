@@ -29,9 +29,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Docker", "_Docker", "{7A26
 		docker\docker-compose.yml = docker\docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IsotopeGallery", "IsotopeGallery", "{9E285075-A18D-4189-921A-76713D7BA2EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Titans.Feature.IsotopeGallery", "src\Feature\IsotopeGallery\code\Titans.Feature.IsotopeGallery\Titans.Feature.IsotopeGallery.csproj", "{50E164DF-CB9B-4268-AD3D-F48C8F0F173D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50E164DF-CB9B-4268-AD3D-F48C8F0F173D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E164DF-CB9B-4268-AD3D-F48C8F0F173D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E164DF-CB9B-4268-AD3D-F48C8F0F173D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E164DF-CB9B-4268-AD3D-F48C8F0F173D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E285075-A18D-4189-921A-76713D7BA2EF} = {17DD5718-6E13-4F2C-9738-B410396D4552}
+		{50E164DF-CB9B-4268-AD3D-F48C8F0F173D} = {9E285075-A18D-4189-921A-76713D7BA2EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}
